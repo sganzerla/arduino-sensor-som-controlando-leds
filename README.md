@@ -45,11 +45,7 @@ Circuito simples que detecta palmas utilizando sensor de som KY-038 e liga/desli
  
  <p>O de 300Ω instalado entre o negativo do LED e a conexão com GND do Arduino.</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/76045740-c0783000-5f3c-11ea-9188-3b239840fbda.png">
-  <img src="https://user-images.githubusercontent.com/22710963/76045740-c0783000-5f3c-11ea-9188-3b239840fbda.png" alt="reset" style="max-width:100%;"></a></p> 
-  
- <p>O de 10kΩ instalado entre o sensor de luminosidade e a conexão com 5v do Arduino.</p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/76045486-fbc62f00-5f3b-11ea-83a6-bf60d99b9471.png">
-  <img src="https://user-images.githubusercontent.com/22710963/76045486-fbc62f00-5f3b-11ea-83a6-bf60d99b9471.png" alt="reset" style="max-width:100%;"></a></p>
+  <img src="https://user-images.githubusercontent.com/22710963/76045740-c0783000-5f3c-11ea-9188-3b239840fbda.png" alt="reset" style="max-width:100%;"></a></p>   
  
   ### c) LEDS comuns de 4mm
   Diodo com 2V e 15mA, perna maior ligada no positivo
