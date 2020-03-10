@@ -37,6 +37,8 @@
 #define PIN_LED3 6
 #define PIN_LED4 7
 #define SENSOR_SOM 2
+#define SENSOR_SOM_ANALOGICO A5
+
 
 /***************************************************************************** */
 
@@ -57,11 +59,12 @@ long esperaPalmas = 0;      // Marcador usado para contagem dos intervalos de te
 void setup() {
 
   // Definição da função de cada pino, se vão receber (INPUT) ou enviar (OUTPUT) informações.
-  pinMode(SENSOR_SOM,INPUT);
-  pinMode(PIN_LED1,OUTPUT);
-  pinMode(PIN_LED2,OUTPUT);
-  pinMode(PIN_LED3,OUTPUT);
-  pinMode(PIN_LED4,OUTPUT);
+  pinMode(SENSOR_SOM, INPUT);
+  pinMode(SENSOR_SOM_ANALOGICO, INPUT);
+  pinMode(PIN_LED1, OUTPUT);
+  pinMode(PIN_LED2, OUTPUT);
+  pinMode(PIN_LED3, OUTPUT);
+  pinMode(PIN_LED4, OUTPUT);
 
   // Inicia todos os relés na posição na qual os contatos estão desligados. Nosso módulo relé tem a lógica invertida HIGH desliga as portas, verifique se o usado por você também apresenta a mesma lógica.
   digitalWrite(PIN_LED1, LOW);
@@ -78,6 +81,8 @@ void setup() {
 
 void loop() {
   
+Serial.print(analogRead(SENSOR_SOM_ANALOGICO));
+
   // Faz a leitura digital do sensor de som, quando este sensor detecta som ele desliga a porta de entrada, mudando seu estado para LOW e quando não detecta mantem em HIGH.
   int leituraSom = digitalRead(SENSOR_SOM);
   // Ações quando o sensor detectar som, ou seja, entrar em LOW. 
@@ -91,11 +96,6 @@ void loop() {
         momentoPalma = 0;
      }
      
-  Serial.print("Espera palma: ");
-  Serial.println(esperaPalmas);
-  Serial.print("Duração palma: ");
-  Serial.println(momentoPalma);
-  Serial.println();
   }
   
 
