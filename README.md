@@ -66,7 +66,7 @@ Circuito simples que detecta palmas utilizando sensor de som KY-038 e liga/desli
   
   ### f) Sensor de som KY-038
   Não possui lado de polaridade fixo.
-<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/76327946-6aebac80-62c9-11ea-9b93-a7e231d9ef99.png>
+<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/76327946-6aebac80-62c9-11ea-9b93-a7e231d9ef99.png">
   <img src="https://user-images.githubusercontent.com/22710963/76327946-6aebac80-62c9-11ea-9b93-a7e231d9ef99.png" alt="reset" style="max-width:100%;"></a></p> 
 
 
