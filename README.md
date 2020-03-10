@@ -65,7 +65,7 @@ Circuito simples que detecta palmas utilizando sensor de som KY-038 e liga/desli
   <img src="https://user-images.githubusercontent.com/22710963/73711525-e57f4600-46e5-11ea-8cb9-e9bb27543ea4.png" alt="reset" style="max-width:100%;"></a></p>     
   
   ### f) Sensor de som KY-038
-  Não possui lado de polaridade fixo.
+  Altere com calma a regulagem do sensor pois do contrário vai passar muita raiva com ele.
 <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/76327946-6aebac80-62c9-11ea-9b93-a7e231d9ef99.png">
   <img src="https://user-images.githubusercontent.com/22710963/76327946-6aebac80-62c9-11ea-9b93-a7e231d9ef99.png" alt="reset" style="max-width:100%;"></a></p> 
 
@@ -93,6 +93,12 @@ Perna maior do LED é ligado no positivo e a perna menor precisa de um resistor 
 > Para calcular a resistência: R = V / I
 
 > Para calcular a tensão: V = R * I
+
+### Circuito
+<p>
+ <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/76347840-068b1600-62e6-11ea-89e8-b38b4bbaeca4.png">
+  <img src="https://user-images.githubusercontent.com/22710963/76347840-068b1600-62e6-11ea-89e8-b38b4bbaeca4.png" alt="reset" style="max-width:100%;"></a>
+</p> 
 
 ### Tabela de Cores dos resistores na convenção internacional
 <p>
