@@ -90,7 +90,6 @@
    int leituraSom = digitalRead(SENSOR_SOM);
    // Ações quando o sensor detectar som, ou seja, entrar em LOW. 
    if (leituraSom == HIGH) {
-
      // Marca o momento da palma, soma a quantidade de palmas e aguarda um intervalo para não marcar a mesma palma mais de uma vez. 
      if (momentoPalma == 0) {
        momentoPalma = esperaPalmas = millis();
@@ -105,6 +104,7 @@
    if (((millis() - esperaPalmas) > intervaloPalmas) && (quantidadePalmas != 0)) {
 
      if (quantidadePalmas == 1) {
+      Serial.print("oi");
        digitalWrite(PIN_LED1, !digitalRead(PIN_LED1)); // O sinal de exclamação inverte do led, se estava ligado será desligado e vice versa. 
        digitalWrite(PIN_LED2, !digitalRead(PIN_LED2)); // O sinal de exclamação inverte do led, se estava ligado será desligado e vice versa. 
      }
@@ -120,8 +120,8 @@
  }
 
  void acenderLedParaRegulagemSensor() {
-   int som = analogRead(SENSOR_SOM_ANALOGICO);
-   if (som > 535) // depois de regulado pode ser removido do código
+   int som = analogRead(SENSOR_SOM_ANALOGICO) ;
+   if (digitalRead(SENSOR_SOM) == HIGH) 
    {
      digitalWrite(PIN_LED_TESTE, HIGH);
      Serial.println(som);
