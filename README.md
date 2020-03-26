@@ -54,7 +54,7 @@ Circuito simples que detecta palmas utilizando sensor de som KY-038 para ligar l
   
 ### Configuração
 
-Ao ligar o circuito com o código fonte deste projeto o LED VERMELHO não pode estar aceso, isso indica alto nível de ruído no ambiente. Se isso ocorrer fique girando a regulagem do sensor até desligar o LED. A regulagem do ruído que é feita com o Arduino ligado na porta USB do computador é diferente da que ele está alimentado com uma fonte de 5v.
+Ao ligar o circuito com o código fonte deste projeto o LED VERMELHO não pode estar aceso, isso indica alto nível de ruído no ambiente. Se isso ocorrer fique girando a regulagem do sensor até desligar o LED. A regulagem de sensibilidade de ruído que é feita com o Arduino ligado na porta USB do computador é diferente da que ele está alimentado com uma fonte de 5v.
   
   <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/77605498-d2257580-6ef3-11ea-8801-5d045509c80a.png">
   <img src="https://user-images.githubusercontent.com/22710963/77605498-d2257580-6ef3-11ea-8801-5d045509c80a.png" alt="reset" style="max-width:100%;"></a></p>     
